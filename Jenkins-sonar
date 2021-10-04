@@ -1,8 +1,5 @@
  pipeline {
      agent any
-     //options {
-     //    buildDiscarder{logRotator(numTokeepStr: '5')
-     //    }
         stages {
             stage('Scan') {
                 steps{
@@ -12,5 +9,4 @@
                 }
             }
         }
-     }
  }
